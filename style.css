@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.home{
+    /* background-color: rgb(248, 250, 252); */
+    height: 5555px;
+    
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+   background-color: antiquewhite;
+/* position: fixed; */
+
+}
+.links ul{
+    display: flex;
+    list-style: none;
+    
+}
+
+.links li{
+    margin: 10px;
+    padding: 10px;
+
+}
+.links a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: rgb(4, 175, 4);
+    font-size: x-large;
+    padding: 10px;
+    background-color: rgba(240, 248, 255, 0.511);
+    border-radius: 25px;
+    transition: 1s;
+}
+
+.logo{
+    color: rgb(9, 201, 9);
+    margin: 10px;
+    padding: 10px;
+    text-transform: uppercase;
+}
+span{
+    color: rgb(197, 133, 14);
+    text-shadow: 1px 1px;
+    font-size: xx-large;
+}
+.links a:hover{
+    box-shadow: 2px 5px 30px rgb(119, 96, 3); 
+}
+
+.bodyhome{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bodyhome img{
+    height: 800px;
+    
+}
+.bodyhome .dis{
+    position: relative;
+    top: 250px;
+    left: 50px;
+}
+
+.bodyhome h2{
+    font-size: 60px;
+    text-transform: uppercase;
+    color: rgb(198, 137, 24);
+}
+
+.bodyhome button{
+    padding: 10px;
+    border-radius: 15px;
+    background-color: rgb(244, 189, 89);
+    color: rgb(33, 6, 6);
+    text-transform: uppercase;
+    font-size: large;
+    position: relative;
+    left: 30px;
+}
+.bodyhome button:hover{
+    background-color: rgb(246, 204, 126);
+    box-shadow: 2px 5px 30px rgb(181, 139, 62);
+}
+
+
+.stylebtn{
+    background-color: rgb(244, 189, 89);
+    border-radius: 12px;
+    padding: 10px;
+    margin: 10px;
+    font-size: large;
+    text-transform: capitalize;
+}
+
+
+
+.section1 .heads1{
+    display: flex;
+    justify-content: space-around;
+}
+
+.section1 .heads1 button:hover{
+    box-shadow: 2px 5px 30px rgb(181, 139, 62);
+
+}
+
+.section1 .heads1 h1{
+    color: rgb(70, 63, 24);
+    text-transform: uppercase;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.bodys1{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+
+.bodys1 div{
+    height: 300px;
+    width: 15%;
+    background-color: antiquewhite;
+    border-radius: 12px;
+}
+
+.bodys1 div:hover{
+    box-shadow: 2px 5px 30px rgb(181, 139, 62);
+}
+
+.bodys1 img{
+    padding: 20px;
+    margin-left: 40px;
+    margin-top: 20px;
+
+}
+
+.bodys1 p{
+    color:rgb(85, 80, 11);
+    text-transform: capitalize;
+    font-size: large;
+    text-align: center;
+    margin-top: 30px;
+    
+}
+
+
+
+
+.section2 .heads2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 150px;
+}
+
+.section2 .heads2 button:hover{
+    box-shadow: 2px 5px 30px rgb(181, 139, 62);
+}
+
+.section2 .heads2 h1{
+    color: rgb(70, 63, 24);
+    text-transform: uppercase;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.section2 .bodys2{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.section2 .bodys2 img{
+    padding: 20px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.section2 .bodys2 p{
+    padding: 10px;
+    margin-left: 40px;
+    font-size: 20px;
+}
+
+.section2 .bodys2 h1{
+    width: 300px;
+}
+
+
+
+
+
+.section22 .heads22{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 150px;
+}
+
+
+.section22 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.section22 img{
+    padding: 20px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.section22 p{
+    padding: 10px;
+    margin-left: 40px;
+    font-size: 20px;
+}
+
+.section22 h1{
+    width: 300px;
+}
+
